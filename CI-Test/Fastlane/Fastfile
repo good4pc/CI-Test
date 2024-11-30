@@ -1,0 +1,5 @@
+lane :tests do
+    run_tests(workspace: "API.xcworkspace",
+              devices: ["iPhone 16"],
+              scheme: "CI-Test")
+  end
